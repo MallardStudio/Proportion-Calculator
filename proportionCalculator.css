@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Carrois Gothic SC');
+body {
+  font-family: Carrois Gothic SC;
+  background-color: #26499b;
+  color: white;
+}
+
+#title {
+  font-size: 30px;
+  margin-top: 5em;
+}
+
+#line {
+  width: 30em;
+  height: 0.1em;
+  background-color: white;
+  margin-top: -1.8em;
+  margin-bottom: -0.5em;
+}
+
+#one {
+  margin-right: 25px;
+  margin-left: -63px;
+  width: 15em;
+  height: 3em;
+  text-align: center;
+  margin-top: -30px;
+  border: none;
+  border-radius: 1px;
+  font-family: Carrois Gothic SC;
+}
+
+#two {
+  margin-right: -60px;
+  width: 15em;
+  height: 3em;
+  text-align: center;
+  border: none;
+  border-radius: 1px;
+  font-family: Carrois Gothic SC;
+}
+
+#three {
+  margin-right: 25px;
+  margin-left: -63px;
+  width: 15em;
+  height: 3em;
+  text-align: center;
+  border: none;
+  border-radius: 1px;
+  font-family: Carrois Gothic SC;
+}
+
+#four {
+  margin-right: -60px;
+  width: 15em;
+  height: 3em;
+  text-align: center;
+  border: none;
+  border-radius: 1px;
+  font-family: Carrois Gothic SC;
+}
+
+input:focus {
+  outline: none;
+  background-color: #6f90dc;
+}
+
+.smallerLine {
+  width: 14em;
+  height: 0.1em;
+  display: inline-block;
+  background-color: white;
+  vertical-align: middle;
+}
+
+#run {
+  margin-top: 3em;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: Carrois Gothic SC;
+  border: 2px solid white;
+  padding: 0.75em;
+}
+
+button:focus {
+  outline:0;
+}
+
+#run:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+#solution {
+  font-size: 22px;
+}
